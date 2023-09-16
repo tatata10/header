@@ -50,6 +50,57 @@ p.article-desc{
     line-height: 22px;
     letter-spacing: 0;
     color: #183028;
+    margin-bottom: 50px;
+}
+
+
+/* サイトに飛ばすためのリンクを張る */
+body .list table tr {
+    border: 1px solid #e2e2e2;
+}
+.list tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+body .list table {
+    background: #fff;
+    font-size: 12px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.list table {
+    border-spacing: 0;
+}
+.list table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+    font-size: 12px;
+    border-color: gray;
+}
+
+body .list table th{
+    color: rgb(68, 68, 68);
+    box-sizing: border-box;
+}
+body .list table td a, body table th a {
+    font-weight: 700;
+    color: 0074e0;
+}
+body .list table td{
+    text-align: center;
+    padding: 6px 3px;
+    border: 1px solid #e2e2e2;
+}
+body .list table tr th {
+    border: 1px solid #e2e2e2;
+    background-color: #efefef;
+    padding: 6px 8px;
+}
+body .list table img {
+    margin: 0 auto 8px;
+    border-radius: 4px;
 }
 
 
