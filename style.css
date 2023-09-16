@@ -167,6 +167,9 @@ body .list table img {
     
     
     /* サイトに飛ばすためのリンクを張る */
+    .list{
+        text-align: center;
+    }
     body .list table tr {
         border: 1px solid #e2e2e2;
     }
@@ -181,6 +184,7 @@ body .list table img {
         margin-bottom: 15px;
         width: 100%;
         text-align: center;
+        margin: auto;
     }
     .list table {
         border-spacing: 0;
