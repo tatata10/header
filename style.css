@@ -180,6 +180,7 @@ body .list table img {
         font-size: 22px;
         margin-bottom: 15px;
         width: 100%;
+        text-align: center;
     }
     .list table {
         border-spacing: 0;
